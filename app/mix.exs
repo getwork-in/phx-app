@@ -5,7 +5,7 @@ defmodule App.MixProject do
     [
       app: :app,
       version: "0.1.0",
-      elixir: "~> 1.14",
+      elixir: "~> 1.17.3",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
@@ -32,8 +32,8 @@ defmodule App.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.7.12"},
-      {:phoenix_ecto, "~> 4.4"},
+      {:phoenix, "~> 1.7.14"},
+      {:phoenix_ecto, "~> 4.6.3"},
       {:ecto_sql, "~> 3.10"},
       {:postgrex, ">= 0.0.0"},
       {:phoenix_html, "~> 4.0"},

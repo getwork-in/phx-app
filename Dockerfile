@@ -1,8 +1,8 @@
-FROM elixir:1.16.1
+FROM elixir:1.17.3
 
 # Build Args
-ARG PHOENIX_VERSION=1.7.12
-ARG NODE_VERSION=20.10.0
+ARG PHOENIX_VERSION=1.7.14
+ARG NODE_VERSION=23.1.0
 
 # Dependencies
 RUN apt update \
